@@ -10,6 +10,7 @@ const MoviesBooking = () => {
     <div>
       <MoviesSelection />
       <SeatDetails />
+<<<<<<< HEAD
       <ul className="showcase">
         <li>
             <div className="seat"></div>
@@ -24,6 +25,8 @@ const MoviesBooking = () => {
             <small>Occupied</small>
         </li>
     </ul>
+=======
+>>>>>>> 8baa30517b1197cb204fef731ba31ade82cabdae
       <div className="container">
         <div className="movie-screen">
           <img src={movieScreen} alt="screen" />

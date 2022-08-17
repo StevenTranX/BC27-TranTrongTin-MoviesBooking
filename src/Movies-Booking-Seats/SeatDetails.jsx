@@ -15,10 +15,10 @@ const ProductDetails = () => {
   }
 
   return (
-    <div className="row mt-3 text-white">
+    <div className="row mt-5">
       <div className="col-sm-6">
         <h1>Seat Details</h1>
-        <table className="table text-white">
+        <table className="table">
           <thead>
             <tr>
               <th>Name</th>
@@ -36,7 +36,7 @@ const ProductDetails = () => {
                   {/* <td>{item.price * item.quantity}</td> */}
                   <td>
                     <button
-                      className="btn-danger"
+                      className="btn btn-danger"
                       onClick={() => handleRemove(item.name)}
                     >
                       Cancel

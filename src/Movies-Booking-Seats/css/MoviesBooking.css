@@ -108,6 +108,7 @@ body {
   color: #777;
   list-style-type: none;
   display: flex;
+
   /* justify-content: space-between; */
 }
 
@@ -251,7 +252,10 @@ p.text span {
 .seatInner {
   font-size: 13px;
 }
+
 .occupied {
   background-color : #fff;
   pointer-events:none
 }
+
+

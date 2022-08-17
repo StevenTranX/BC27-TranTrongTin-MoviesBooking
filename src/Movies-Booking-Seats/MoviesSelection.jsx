@@ -2,7 +2,7 @@ import React from 'react';
 
 const MoviesSelection = () => {
   return (
-    <div className="movie-container text-white">
+    <div className="movie-container">
       <label>Pick a movie:</label>
       <select id="movie">
         <option value={650}>Parasite (₹650)</option>
